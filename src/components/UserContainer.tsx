@@ -1,10 +1,14 @@
 import Footer from "./Footer";
 import Clearence from "./Home/Clearence";
+import DealsSection from "./Home/DealsSection";
+import FeaturedCategories from "./Home/FeaturedCategories";
 import LookAndSpaceSection from "./Home/LookAndSpaceSection";
 import MiddleHero from "./Home/MiddleHero";
 import MoviesSection from "./Home/MoviesSection";
 import SaveOfferBanner from "./Home/SaveOfferBanner";
 import TopHeroSection from "./Home/TopHeroSection";
+import TrendSection from "./Home/TrendSection";
+import UnveilSection from "./Home/UnveilSection";
 import Navbar from "./Navbar";
 
 const UserContainer = () => {
@@ -20,6 +24,10 @@ const UserContainer = () => {
           <MoviesSection />
           <LookAndSpaceSection />
           <Clearence />
+          <UnveilSection />
+          <TrendSection />
+          <DealsSection />
+          <FeaturedCategories />
           <SaveOfferBanner />
         </div>
         <Footer />
